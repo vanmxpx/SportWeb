@@ -1,5 +1,20 @@
 ﻿$(document).ready(function () {
 
+    // Initiate gallary
+    $(function () {
+        $("#gallery").jGallery({
+            "transition": "moveToLeft_moveFromRight",
+            "transitionBackward": "moveToRight_moveFromLeft",
+            "transitionCols": "1",
+            "transitionRows": "1",
+            "thumbnailsPosition": "left",
+            "thumbType": "image",
+            "backgroundColor": "FFFFFF",
+            "textColor": "000000",
+            "mode": "standard"
+        });
+    });
+
     // Smooth scrolling
     $(function () {
         $('a[href*="#"]:not([href="#"])').click(function () {
@@ -115,4 +130,26 @@
         return false;
     });
 
+    //Map
+
+
+
+
 });
+
+function initMap() {
+    var get_latitude = $('#google-map').data('latitude');
+    var get_longitude = $('#google-map').data('longitude');
+
+    var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
+    var mapOptions = {
+        zoom: 14,
+        scrollwheel: false,
+        center: myLatlng
+    };
+    var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map
+    });
+};

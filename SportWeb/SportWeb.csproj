@@ -9,7 +9,117 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\lib\waypointsOld\**" />
+    <Content Remove="wwwroot\lib\waypointsOld\**" />
+    <EmbeddedResource Remove="wwwroot\lib\waypointsOld\**" />
+    <None Remove="wwwroot\lib\waypointsOld\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Properties\PublishProfiles\SportWeb - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\large\1.jpg" />
+    <Content Include="wwwroot\images\large\2.jpg" />
+    <Content Include="wwwroot\images\large\3.jpg" />
+    <Content Include="wwwroot\images\large\4.jpg" />
+    <Content Include="wwwroot\images\large\5.jpg" />
+    <Content Include="wwwroot\images\large\6.jpg" />
+    <Content Include="wwwroot\images\thumbs\1.jpg" />
+    <Content Include="wwwroot\images\thumbs\2.jpg" />
+    <Content Include="wwwroot\images\thumbs\3.jpg" />
+    <Content Include="wwwroot\images\thumbs\4.jpg" />
+    <Content Include="wwwroot\images\thumbs\5.jpg" />
+    <Content Include="wwwroot\images\thumbs\6.jpg" />
+    <Content Include="wwwroot\lib\jgallery\.gitignore" />
+    <Content Include="wwwroot\lib\jgallery\dist\albums-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\albums.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\css\font-awesome.min.css" />
+    <Content Include="wwwroot\lib\jgallery\dist\css\jgallery.css" />
+    <Content Include="wwwroot\lib\jgallery\dist\css\jgallery.min.css" />
+    <Content Include="wwwroot\lib\jgallery\dist\custom-background-and-text-colours-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\custom-background-and-text-colours.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\default-jgallery-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\default-jgallery.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\different-background-and-text-colours-for-each-photo-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\different-background-and-text-colours-for-each-photo.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\lib\jgallery\dist\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\lib\jgallery\dist\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\lib\jgallery\dist\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\lib\jgallery\dist\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\lib\jgallery\dist\full-screen-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\full-screen.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\js\jgallery.js" />
+    <Content Include="wwwroot\lib\jgallery\dist\js\jgallery.min.js" />
+    <Content Include="wwwroot\lib\jgallery\dist\js\jquery-2.0.3.min.js" />
+    <Content Include="wwwroot\lib\jgallery\dist\js\tinycolor-0.9.16.min.js" />
+    <Content Include="wwwroot\lib\jgallery\dist\js\touchswipe.js" />
+    <Content Include="wwwroot\lib\jgallery\dist\js\touchswipe.min.js" />
+    <Content Include="wwwroot\lib\jgallery\dist\slider-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\slider-with-links-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\slider-with-links.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\slider.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\viewport-height-items.html" />
+    <Content Include="wwwroot\lib\jgallery\dist\viewport-height.html" />
+    <Content Include="wwwroot\lib\jgallery\Gruntfile.js" />
+    <Content Include="wwwroot\lib\jgallery\package.json" />
+    <Content Include="wwwroot\lib\jgallery\README.md" />
+    <Content Include="wwwroot\lib\jgallery\src\js\end.frag.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\functions\historyPushState.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\functions\isIE.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\functions\isIE8AndOlder.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\functions\refreshHTMLClasses.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\jgallery.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\jqueryExtensions\jLoader.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\jqueryExtensions\outerHtml.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\jqueryExtensions\overlay.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\advancedAnimation.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\iconChangeAlbum.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\jgallery.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\progress.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\thumb.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\thumbnails.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\thumbnailsGenerator.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\prototype\zoom.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\start.frag.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\defaults.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\defaultsFullScreenMode.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\defaultsSliderMode.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\requiredFullScreenMode.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\requiredSliderMode.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\transitions.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\transitionsAsArray.js" />
+    <Content Include="wwwroot\lib\jgallery\src\js\var\transitionsBackward.js" />
+    <Content Include="wwwroot\lib\jgallery\src\less\buttons.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\icon-change-album.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\jgallery-slider.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\jgallery-standard.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\jgallery.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\mixins.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\mobile.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\normalize.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\overlay.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\progress-bar.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\responsive.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-bottom.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-full-screen.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-horizontal.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-images.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-left.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-number.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-right.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-square.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-top.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails-vertical.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\thumbnails.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\title-effects.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\title.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\tooltip.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\transitions.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\zoom-effects.less" />
+    <Content Include="wwwroot\lib\jgallery\src\less\zoom.less" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -24,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="wwwroot\lib\jgallery\dist\images\" />
   </ItemGroup>
 
 </Project>
